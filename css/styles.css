@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h1,
+li {
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(40, 53, 105);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    background-color: rgb(40, 53, 105);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 8px;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 8px;
+}
+
+ol ol {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.steps li {
+    background-color: rgb(179, 247, 173);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.steps {
+    background-color: rgb(131, 226, 123);
+}
+
+/* li elements with a .ingredients ancestor */
+.ingredients li {
+    background-color: rgb(247, 235, 173);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.ingredients {
+    background-color: rgb(255, 200, 99);
+}
+
+a.landing,
+h1 {
+    color: rgb(228, 228, 228);
+}
+
+a.return {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    border-radius: 12px;
+}
