@@ -1,30 +1,33 @@
 body {
+    text-align: center;
+    margin: 8px 0;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
-h1,
-li {
-    text-align: center;
+.steps li,
+.ingredients li {
+    text-align: left;
 }
 
-h1 {
+.title {
     background-color: rgb(40, 53, 105);
-    padding-bottom: 10px;
-    padding-top: 10px;
+    color: rgb(228, 228, 228);
+    padding: 10px 0;
+    margin: 15px auto;
+    text-align: center;
+
+}
+
+.return {
+    margin-right: auto;
 }
 
 ul {
-    list-style-position: inside;
-    padding-left: 0;
     background-color: rgb(40, 53, 105);
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: 500px;
-    margin-right: 500px;
-    border-radius: 8px;
 }
 
-ol {
+ol,
+ul {
     list-style-position: inside;
     padding-left: 0;
     padding-top: 1px;
@@ -41,24 +44,21 @@ ol ol {
 
 .steps li {
     background-color: rgb(179, 247, 173);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 10px 10px;
+    margin: 10px;
     border-radius: 5px;
 }
 
 .steps {
     background-color: rgb(131, 226, 123);
+    width: 50vw;
+    margin: 0 auto;
 }
 
 /* li elements with a .ingredients ancestor */
 .ingredients li {
     background-color: rgb(247, 235, 173);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -70,19 +70,29 @@ ol ol {
     background-color: rgb(255, 200, 99);
 }
 
-a.landing,
-h1 {
-    color: rgb(228, 228, 228);
-}
-
 a.return {
-    text-align: center;
-}
-
-body {
     text-align: center;
 }
 
 img {
     border-radius: 12px;
+}
+
+ul {
+    margin: 0 auto;
+    width: 30vw;
+    min-width: 350px;
+}
+
+.page-list {
+    padding: 3px 0;
+}
+
+.page-list li {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.page-list a {
+    color: rgb(228, 228, 228);
 }
